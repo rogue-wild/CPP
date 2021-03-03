@@ -1,5 +1,5 @@
- #include<iostream>
- #include<vector> //have to use vector preprocessor
+#include<iostream>
+#include<vector> //have to use vector preprocessor
 
  using std::cout;
  using std::cin;
