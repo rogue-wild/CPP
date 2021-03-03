@@ -1,10 +1,10 @@
  #include<iostream>
- #include<vector>
+ #include<vector> //have to use vector preprocessor
 
  using std::cout;
  using std::cin;
  using std::endl;
- using std::vector;
+ using std::vector; //have to use the standard namespace 
 
 int main(){
 
