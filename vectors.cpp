@@ -52,13 +52,15 @@ int main()
       {1, 3, 4, 5}
 
   };
-  cout << "printing first row" << endl;
+  cout << "//Printing first row" << endl;
+  cout << endl;
   cout << movie_ratings[0][0] << endl;
   cout << movie_ratings[0][1] << endl;
   cout << movie_ratings[0][2] << endl;
   cout << movie_ratings[0][3] << endl;
-  
-  cout << "printing second row" << endl;
+
+  cout << "//Printing second row" << endl;
+  cout << endl;
   cout << movie_ratings.at(1).at(0) << endl;
   cout << movie_ratings.at(1).at(1) << endl;
   cout << movie_ratings.at(1).at(2) << endl;
