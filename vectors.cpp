@@ -43,7 +43,7 @@ int main()
     // using the "size" method to iterate through the vector.
     cout << testScore.at(i) << endl;
   }
-
+  cout << "\n2-d vectors" << endl;
   //example of 2d vectors
 
   vector<vector<int>> movie_ratings{
@@ -52,9 +52,17 @@ int main()
       {1, 3, 4, 5}
 
   };
-
+  cout << "printing first row" << endl;
   cout << movie_ratings[0][0] << endl;
-  cout << movie_ratings[0][0] << endl;
+  cout << movie_ratings[0][1] << endl;
+  cout << movie_ratings[0][2] << endl;
+  cout << movie_ratings[0][3] << endl;
+  
+  cout << "printing second row" << endl;
+  cout << movie_ratings.at(1).at(0) << endl;
+  cout << movie_ratings.at(1).at(1) << endl;
+  cout << movie_ratings.at(1).at(2) << endl;
+  cout << movie_ratings.at(1).at(3) << endl;
 
   return 0;
 }
