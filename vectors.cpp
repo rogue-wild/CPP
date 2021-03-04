@@ -29,6 +29,13 @@ for(int i {0}; i < 6; i++){
 
 cout<<"Size of the vector testScore: "<<testScore.size()<<endl;
 
+cout<<endl;
+//feeding new value to the vector from the user using a variable 
+int newScore {0};
+cin>>newScore;
+testScore.push_back(newScore);
+cout<<endl;
+
 for(int i {0}; i < testScore.size(); i++){
 // using the "size" method to iterate through the vector.
   cout<<testScore.at(i)<<endl;
