@@ -1,1 +1,14 @@
-Hello World!
+100
+20
+========== Welcome to USD to INR converter ===========
+Enter the value in USD: 
+The amount in INR is: 750
+1
+2
+3
+diplaying num1 and num2 using pre increment
+4
+4
+diplaying num1 and num2 using post increment
+1
+0
