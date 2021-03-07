@@ -8,11 +8,11 @@ int dollar_conversion()
 {
 
     const double inr_per_usd{75.0};
-    double dollars{0.0};
+    double dollars{10.0};
 
     cout << "\n========== Welcome to USD to INR converter ===========" << endl;
     cout << "Enter the value in USD: ";
-    cin >> dollars;
+    // cin >> dollars;
 
     return dollars * inr_per_usd;
 }
@@ -31,6 +31,34 @@ int main()
     num2 = dollar_conversion();
 
     cout << "\nThe amount in INR is: " << num2 << endl;
+
+    // trying out the increment and decrement operator
+    int counter{0};
+
+    counter = counter + 1;
+    cout << counter << endl;
+
+    counter++; //post increment
+    cout << counter << endl;
+
+    ++counter; //pre increment
+    cout << counter << endl;
+
+    num1 = counter;
+
+    num2 = ++num1; // this expression means num1 = num1 + 1; then num2 = num1;
+
+    cout << "diplaying num1 and num2 using pre increment" << endl;
+    cout << num1 << endl
+         << num2 << endl;
+
+    num1 = 0;
+    num2 = 0;
+
+    num2 = num1++;
+    cout << "diplaying num1 and num2 using post increment" << endl;
+    cout << num1 << endl
+         << num2 << endl;
 
     return 0;
 }
