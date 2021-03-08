@@ -46,7 +46,7 @@ int main()
 
     num2 = ++num1; // this expression means num1 = num1 + 1; then num2 = num1;
 
-    cout << "diplaying num1 and num2 using pre increment" << endl;
+    cout << "Displaying num1 and num2 using pre increment" << endl;
     cout << num1 << endl
          << num2 << endl;
 
@@ -54,12 +54,12 @@ int main()
     num2 = 0;
 
     num2 = num1++;
-    cout << "diplaying num1 and num2 using post increment" << endl;
+    cout << "Displaying num1 and num2 using post increment" << endl;
     cout << num1 << endl
          << num2 << endl;
 
     // Explicit type casting conversion using static_cast<type>
-    cout << "using Explicit Type Casting." << endl;
+    cout << "Using Explicit Type Casting." << endl;
     int total_amount{100};
     int total_number{8};
     double average{0.0};
