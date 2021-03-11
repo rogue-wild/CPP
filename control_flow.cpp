@@ -8,13 +8,13 @@ int main()
 {
     //learning Control Flow statements.
 
-    //Using if Statement
+    //Using if Statement.
 
-    //Using if-else Statement
+    //Using if-else Statement.
 
-    //Using Nested if Statement
+    //Using Nested if Statement.
 
-    //switch-case Statement
+    //switch-case Statement.
 
     //Conditional Operator
 
