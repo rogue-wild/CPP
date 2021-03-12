@@ -5,7 +5,7 @@ using std::cout;
 using std::endl;
 
 int area()
-{
+{ // Function to calculate the area of the room.
     int room_width{0};
     int room_length{0};
 
