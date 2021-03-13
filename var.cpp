@@ -21,7 +21,7 @@ int area()
 int main()
 {
     int Area{0};
-
+    // Assigning the return value of area() function to the variable area.
     Area = area();
     cout << "Area of the room is: " << Area << "sqm.";
 }
