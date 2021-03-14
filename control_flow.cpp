@@ -20,15 +20,15 @@ int main()
 
     //Looping
 
-    //for Loop
+    //for Loops
 
-    //while Loop
+    //while Loops
 
-    //do while Loop
+    //do while Loops
 
     //continue and break
 
-    //Infinite Loop
+    //Infinite Loops
 
     //Nested Loops
     
