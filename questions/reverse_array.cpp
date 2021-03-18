@@ -60,6 +60,7 @@ int main()
     int k{0};
 
     int a[] = {1, 5, 2, 3};
+    int n = sizeof(a) / sizeof(a[0]);
 
     cout << "Enter the kth max you wanna find:" << endl;
     cin >> k;
