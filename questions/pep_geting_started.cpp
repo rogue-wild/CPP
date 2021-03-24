@@ -22,10 +22,9 @@ int main()
     cout << "    *" << endl;
     cout << "******" << endl;
 
-
-    //Grading System 
-
-    
+    //Grading System
+    int marks{0};
+    int a, b, c;
 
     //**************************************************************
     return 0;
