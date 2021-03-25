@@ -25,6 +25,8 @@ int main()
     //Grading System
     int marks{0};
     int a, b, c;
+    int grades;
+    
 
     //**************************************************************
     return 0;
