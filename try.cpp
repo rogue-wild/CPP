@@ -17,6 +17,8 @@ int main()
      vowels[1] = 'b';
      cout << vowels[1];
 
-     cout << "Notice what the value of the array name is:" << vowels << endl; //this prints the address of the array...
+     cout << "Notice what the value of the array name is:" << vowels << endl; 
+     //this prints the address of the array...
+     
      return 0;
 }
