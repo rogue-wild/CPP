@@ -6,6 +6,17 @@ using std::endl;
 
 int main()
 {
+    // // if-else statement without the block
+    // int num{0};
+    // cout << "Enter a number:";
+    // cin >> num;
+
+    // if (num >= 10 && num <= 100)
+    //     cout << "In range." << endl;
+    // else
+    //     cout << "Not in range.";
+
+
 
     return 0;
 }
