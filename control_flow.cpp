@@ -18,5 +18,9 @@ int main()
 
     //nested if else completed
 
+    //Switch statement 
+
+    
+
     return 0;
 }
