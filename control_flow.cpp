@@ -16,7 +16,7 @@ int main()
     // else
     //     cout << "Not in range.";
 
-    //nested if else
+    //nested if else completed
 
     return 0;
 }
