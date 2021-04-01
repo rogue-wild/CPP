@@ -19,7 +19,47 @@ int main()
     //nested if else completed
 
     //Switch statement
-    enum Color
+/*
+Enumerated type (enumeration) is a user-defined data type which can be assigned some limited values. 
+These values are defined by the programmer at the time of declaring the enumerated type.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+// Defining enum Year
+enum year {
+	Jan,
+	Feb,
+	Mar,
+	Apr,
+	May,
+	Jun,
+	Jul,
+	Aug,
+	Sep,
+	Oct,
+	Nov,
+	Dec
+};
+
+// Driver Code
+int main()
+{
+	int i;
+
+	// Traversing the year enum
+	for (i = Jan; i <= Dec; i++)
+		cout << i << " ";
+
+	return 0;
+}
+Output: 
+0 1 2 3 4 5 6 7 8 9 10 11
+
+    */
+   
+   enum Color //this is an enumeration in this we gave a name to a constant integer
+    //like here the red is 1, green is 2 and so on...
     {
         red,
         green,
