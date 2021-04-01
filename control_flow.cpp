@@ -18,9 +18,30 @@ int main()
 
     //nested if else completed
 
-    //Switch statement 
+    //Switch statement
+    enum Color
+    {
+        red,
+        green,
+        blue
 
-    
+    };
+    Color screen_color{green};
+
+    switch (screen_color)
+    {
+    case red:
+        cout << "red";
+        break;
+    case green:
+        cout << "green";
+        break;
+    case blue:
+        cout << "blue";
+        break;
+    default:
+        cout << "should never execute";
+    }
 
     return 0;
 }
