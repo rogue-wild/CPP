@@ -77,5 +77,12 @@ Output:
     // cout << ((score > 90) ? "Excellent" : "Good");
 
     //Looping
-     
+    //  for loop
+    int i{0};
+
+    for (i = 1; i <= 5; ++i)
+    {
+        cout << i << endl;
+    }
+    return 0;
 }
