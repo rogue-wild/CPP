@@ -93,10 +93,18 @@ Output:
         cout << score << endl;
     }
 
-    for (auto score : scores)//we don't have to explicitly provide the type of the variable
+    for (auto score : scores)
+    //we don't have to explicitly provide the type of the variable
     //instead we can use the auto keyword. This tells C++ compiler to deduce the type itself.
     {
         cout << score << endl;
+    }
+    //while loop
+
+    while (i >= 0)
+    {
+        cout << i << endl;
+        i--;
     }
 
     return 0;
