@@ -84,5 +84,20 @@ Output:
     {
         cout << i << endl;
     }
+
+    //ranged based for loop
+    int scores[]{100, 90, 97};
+
+    for (int score : scores)
+    {
+        cout << score << endl;
+    }
+
+    for (auto score : scores)//we don't have to explicitly provide the type of the variable
+    //instead we can use the auto keyword. This tells C++ compiler to deduce the type itself.
+    {
+        cout << score << endl;
+    }
+
     return 0;
 }
