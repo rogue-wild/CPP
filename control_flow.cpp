@@ -78,37 +78,49 @@ Output:
 
     //Looping
     //  for loop
-    int i{0};
+    // int i{0};
 
-    for (i = 1; i <= 5; ++i)
-    {
-        cout << i << endl;
-    }
+    // for (i = 1; i <= 5; ++i)
+    // {
+    //     cout << i << endl;
+    // }
 
-    //ranged based for loop
-    int scores[]{100, 90, 97};
+    // //ranged based for loop
+    // int scores[]{100, 90, 97};
 
-    for (int score : scores)
-    {
-        cout << score << endl;
-    }
+    // for (int score : scores)
+    // {
+    //     cout << score << endl;
+    // }
 
-    for (auto score : scores)
-    //we don't have to explicitly provide the type of the variable
-    //instead we can use the auto keyword. This tells C++ compiler to deduce the type itself.
-    {
-        cout << score << endl;
-    }
+    // for (auto score : scores)
+    // //we don't have to explicitly provide the type of the variable
+    // //instead we can use the auto keyword. This tells C++ compiler to deduce the type itself.
+    // {
+    //     cout << score << endl;
+    // }
+   
     //while loop
 
-    while (i >= 0)
+    // while (i >= 0)
+    // {
+    //     cout << i << endl;
+    //     i--;
+    // }
+
+    //do-while loop
+    
+    int number{};
+
+    do
     {
-        cout << i << endl;
-        i--;
-    }
-
-
-
+        cout << "Enter an integer between 1 and 5:";
+        cin >> number;
+    } while (number <= 1 || number >= 5);
+    
+    cout << "Thanks" << endl;
+    
 
     return 0;
+
 }
