@@ -121,7 +121,8 @@ Output:
     cout << "Thanks" << endl;
     
     //other loops
-    
+
+    //infinte loop
 
     return 0;
 
