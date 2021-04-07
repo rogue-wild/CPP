@@ -120,6 +120,8 @@ Output:
     
     cout << "Thanks" << endl;
     
+    //other loops
+    
 
     return 0;
 
