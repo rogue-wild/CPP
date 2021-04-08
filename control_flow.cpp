@@ -123,6 +123,7 @@ Output:
     //other loops
 
     //infinte loop
+    //Not today bitch I'm gonna learn maths
 
     return 0;
 
