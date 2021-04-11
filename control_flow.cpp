@@ -124,6 +124,7 @@ Output:
 
     //infinte loop
     //Not today bitch I'm gonna learn maths
+    //arey kal toh paPer hai 
 
     return 0;
 
