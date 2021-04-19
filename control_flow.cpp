@@ -123,7 +123,7 @@ Output:
     //other loops
 
     //infinte loop
-    //Lets practice again from today 
+    
 
     return 0;
 
