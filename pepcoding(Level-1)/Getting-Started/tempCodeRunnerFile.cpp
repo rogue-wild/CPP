@@ -1,6 +1,8 @@
 #include <iostream>
 
-using namespace std;
+using std::cin;
+using std::cout;
+
 //Code starts here
 // Pepcoding Modules:- Data Structues and Algorithm[Beginner-1]
 //  Basics of Programming, Getting Started
@@ -10,8 +12,9 @@ using namespace std;
 
 void isPrime(int num)
 {
-    bool prime{true};
-    for (int i{2}; i * i <= num; i++)
+    bool prime = true;
+
+    for (int i{2}; i * i < num; i++)
     {
         if (num % i == 0)
         {
@@ -20,16 +23,22 @@ void isPrime(int num)
         }
     }
 
-    if (prime == true)
-        cout << "prime" << endl;
+    if (prime == false)
+    {
+        cout << "not prime";
+    }
     else
-        cout << "not prime" << endl;
+    {
+        cout << "prime";
+    }
 }
 
 int main()
 {
-    int test_case{0}, n{0};
+    int test_case{0};
+    int n{0};
     cin >> test_case;
+
     while (test_case > 0)
     {
         cin >> n;
