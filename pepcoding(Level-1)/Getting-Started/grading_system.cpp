@@ -16,7 +16,6 @@ int main()
     int marks;
     cin>>marks;
 
-    // write your code here
     if (marks>90){
         cout<<"excellent";
     }
@@ -33,33 +32,6 @@ int main()
     if (marks<=60){
         cout<<"below par";
     }
-
-    //Is a prime number
-
-    //Print all Primes till N
-    
-    //Print all fibonacci Numbers till N
-    
-    //Counts Digits In a Number
-
-    //Digits of a Number
-
-    //Reverse of a Number
-
-    //Inverse of Number
-
-    //Rotate a number
-
-    //GCD and LCM
-
-    //Prime factorisation of a number
-
-    // Pythagorean Triplet
-
-    //The Curious case of Benjamin Bulbs
-    
-     
-    //**************************************************************
 
     return 0;
 }

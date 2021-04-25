@@ -14,36 +14,6 @@ int main()
     //  Basics of Programming, Getting Started
     //*************************************************************
 
-    // print Z
-    cout << "******" << endl;
-    cout << "    *" << endl;
-    cout << "   * " << endl;
-    cout << "  *  " << endl;
-    cout << " *   " << endl;
-    cout << "******" << endl;
-
-    //Grading System
-    // int marks;
-    // cin>>marks;
-
-    //write your code here
-    // if (marks>90){
-    //     cout<<"excellent";
-    // }
-
-    // if (marks>80 && marks<=90){
-    //     cout<<"good";
-    // }
-    // if (marks>70 && marks<=80){
-    //     cout<<"fair";
-    // }
-    // if (marks>60 && marks<=70){
-    //     cout<<"meets expectations";
-    // }
-    // if (marks<=60){
-    //     cout<<"below par";
-    // }
-
     //Is a prime number
 
     //Print all Primes till N
