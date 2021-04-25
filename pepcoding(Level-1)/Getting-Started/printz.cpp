@@ -3,9 +3,8 @@
 
 using std::cin;
 using std::cout;
-using std::endl;
-using std::vector;
-
+ using std::endl;
+ 
 int main()
 {
 
@@ -15,12 +14,11 @@ int main()
     //*************************************************************
 
     // print Z
-    cout << "******" << endl;
-    cout << "    *" << endl;
+    cout << "*****" << endl;
     cout << "   * " << endl;
-    cout << "  *  " << endl;
-    cout << " *   " << endl;
-    cout << "******" << endl;
+    cout << "  *" << endl;
+    cout << " *" << endl;
+    cout << "*****" << endl;
 
     return 0;
 }
