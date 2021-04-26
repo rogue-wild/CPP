@@ -26,7 +26,6 @@ void digits(long num) {
     }
 }
 
-
 int main(){
     long num;
     cin >> num;
