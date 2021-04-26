@@ -9,29 +9,26 @@ using namespace std;
 
 //Count Digits In A Number
 
-void count_digits(int num)
-{
-    int count = 0;
-    int n = num;
 
-    if (num == 0)
-    {
-        cout << count + 1;
+void digits(long num) {
+    long n = num;
+    long mult = 1;
+    while(n > 0) {
+        n = n / 10;
+        mult *= 10;
     }
-    else
-    {
-        while (n > 0)
-        {
-            count++;
-            n = n / 10;
-        }
-        cout << count;
+    mult /= 10;
+    n = num;
+    while(mult != 0) {
+        cout << n / mult << endl;
+        n = n % mult;
+        mult /= 10;
     }
 }
 
-int main()
-{
-    int num;
+
+int main(){
+    long num;
     cin >> num;
-    count_digits(num);
+    digits(num);
 }
