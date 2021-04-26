@@ -21,15 +21,17 @@ int main()
         if (low % i == 0)
         {
             prime = false;
-            break;
+        
         }
-    }
 
-    if (prime == true)
+        if (prime == true)
     {
         cout << low << endl;
         low++;
     }
+    }
+
+    
 
     return 0;
 }
