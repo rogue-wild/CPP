@@ -9,29 +9,30 @@ using namespace std;
 
 //Print All Primes Till N
 
-int main()
-{
-    int low, high;
-    cin >> low >> high;
-
-    bool prime{true};
-
-    for (int i{2}; i <= high; i++)
-    {
-        if (low % i == 0)
-        {
-            prime = false;
-        
+bool is_prime(int num) {
+    bool prime = true;
+    for(int i = 2; i*i <= num; i++) {
+        if (num % i == 0) {
+            return false;
         }
+    } 
+    return true;
+}
 
-        if (prime == true)
-    {
-        cout << low << endl;
+void print_prime(long int low, long int high) {
+    bool prime;
+    while(low <= high) {
+        prime = is_prime(low);
+        if (prime) 
+            cout << low << endl;
         low++;
     }
-    }
+}
 
-    
-
+int main(int argc, char **argv){
+    long int low, high;
+    cin >> low >> high;
+    print_prime(low, high);
     return 0;
+
 }
