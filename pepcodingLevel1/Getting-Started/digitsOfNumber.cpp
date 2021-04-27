@@ -9,10 +9,6 @@ using namespace std;
 
 //Count Digits In A Number
 
-#include <iostream>
-
-using namespace std;
-
 void printDigit(int N)
 {
     int r;
