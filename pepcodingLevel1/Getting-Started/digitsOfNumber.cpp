@@ -9,25 +9,31 @@ using namespace std;
 
 //Count Digits In A Number
 
+#include <iostream>
 
-void digits(long num) {
-    long n = num;
-    long mult = 1;
-    while(n > 0) {
-        n = n / 10;
-        mult *= 10;
+using namespace std;
+
+void printDigit(int N)
+{
+    int r;
+
+    if (N == 0)
+    {
+        return;
     }
-    mult /= 10;
-    n = num;
-    while(mult != 0) {
-        cout << n / mult << endl;
-        n = n % mult;
-        mult /= 10;
-    }
+
+    r = N % 10;
+
+    printDigit(N / 10);
+
+    cout << r << "\n";
 }
 
-int main(){
-    long num;
-    cin >> num;
-    digits(num);
+int main()
+{
+    int N = 0;
+    cin >> N;
+
+    printDigit(N);
+    return 0;
 }
