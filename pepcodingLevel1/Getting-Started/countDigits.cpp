@@ -2,8 +2,8 @@
 
 using namespace std;
 
-//Code starts here
-// Pepcoding Modules:- Data Structues and Algorithm[Beginner-1]
+//  Code starts here
+//  Pepcoding Modules:- Data Structues and Algorithm[Beginner-1]
 //  Basics of Programming, Getting Started
 //*************************************************************
 
