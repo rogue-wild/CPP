@@ -1,10 +1,23 @@
-#include<iostream>
+#include <iostream>
+using namespace std;
 
-// using namespace std;
-using std::cout;
-
-int main(){
-    cout<<"Hello World";
-
-    return 0;
+int main() {
+	// your code goes here
+	int a = 1;
+	int b = 2;
+	int c = 0;
+	int sum = 0;
+	
+	for(int i = 0; a<4000000; i++){
+	    if( a%2 == 0){
+	        sum += a;
+	    }
+	    
+	    c = a+b;
+	    a=b;
+	    b=c;
+	}
+	cout<<sum;
+	
+	return 0;
 }
