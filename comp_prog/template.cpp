@@ -9,7 +9,7 @@ using std::endl;
 // using std::vector;
 // using namespace std;
 
-int answer{
+int answer(){
 
 	// some code goes here
 
